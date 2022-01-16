@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(220, 220, 220);
+    height: 100vh;
+    width: 100%;
+    background-color: #200330;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(220, 220, 220);
+}
+
+a:hover {
+    color: white;
+}
+
+/* Header Stlying */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.left-container {
+    margin: 0.3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+.logo img {
+    width: 150px;
+    height: 66px;
+}
+
+.right-container {
+    margin: 0.3em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 36%;
+}
+
+.search-box input {
+    width: 300px;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    background-color: #1D1241;
+    color: rgb(220, 220, 220);
+    border-style: none;
+}
+
+.bell {
+    height: 15px;
+    width: 15px;
+}
+
+.bell i {
+    background-color: rgb(220, 220, 220);
+}
+
+.profile-picture {
+    height: 30px;
+    width: 30px;
+}
+
+.profile-picture img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
