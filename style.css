@@ -103,6 +103,7 @@ nav {
 
 .main-image {
     height: 288px;
+    margin-bottom: 2em;
 }
 
 .main-image img {
@@ -118,10 +119,13 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
+    margin-bottom: 2em;
 }
 
 .top-heading {
     width: 100%;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .bottom-elements {
@@ -167,6 +171,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
+    margin-bottom: 2em;
 }
 
 .artists-area {
@@ -195,6 +200,7 @@ nav {
 
 .categories {
     width: 100%;
+    margin-bottom: 2em;
 }
 
 .top-cat {
@@ -221,7 +227,6 @@ nav {
 .top-cat-img {
     display: inline-block;
     position: relative;
-    text-align: center;
 }
 
 .top-cat-img img {
@@ -248,7 +253,6 @@ nav {
 .bottom-cat-img {
     display: inline-block;
     position: relative;
-    text-align: center; 
 }
 
 .bottom-cat-img img {
@@ -263,6 +267,49 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* Latest lang section styling */
+
+.latest-lang {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.english, .hindi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.lat-lang-cont {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9em 0;
+}
+
+.let-lang-img img {
+    height: 100px;
+    width: 100px;
+}
+
+.song-info {
+    text-align: start;
+}
+
+.song-info b {
+    font-size: small;
+}
+
+.date {
+    font-weight: lighter;
+    font-size: x-small;
+    color: rgb(169, 169, 169);
 }
 
 .right-hero {
