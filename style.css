@@ -91,7 +91,7 @@ nav {
     /* background-color: grey; */
     margin: 1.5em;
     margin-top: 0.5em;
-    width: 55%;
+    width: 57%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -182,8 +182,8 @@ nav {
 }
 
 .artists img {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
 }
 
@@ -191,10 +191,54 @@ nav {
     text-align: center;
 }
 
+/* Categories section styling */
+
+.categories {
+    width: 100%;
+}
+
+.top-cat {
+    width: 100%;
+    background-color: #2A0047;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.top-cat img {
+    height: 109px;
+    width: 140px;
+}
+
+.top-right-cat {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.top-right-cat img {
+    height: 83px;
+    width: 83px;
+    border-radius: 50%;
+}
+
+.bottom-cat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-cat-img img {
+    width: 240px;
+    height: 150px;
+}
+
 .right-hero {
     background-color: grey;
     margin: 1.5em;
     margin-top: 0.5em;
-    width: 30%;
+    width: 27%;
     height: 100vh;
 }
