@@ -80,22 +80,26 @@ nav {
     border-radius: 50%;
 }
 
+/* Hero styling */
+
 .hero {
     display: flex;
     justify-content: center;
 }
 
 .left-hero {
-    background-color: grey;
+    /* background-color: grey; */
     margin: 1.5em;
     margin-top: 0.5em;
     width: 55%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
+
+/* Top image styling */
 
 .main-image {
     height: 288px;
@@ -105,6 +109,8 @@ nav {
     width: 744px;
     height: 288px;
 }
+
+/* Latest release section styling */
 
 .latest-release {
     display: flex;
@@ -131,7 +137,7 @@ nav {
     justify-content: start;
     align-items: center;
     width: 100%;
-    padding: 0.7em;
+    padding: 0.9em;
 }
 
 .left, .right {
@@ -151,6 +157,38 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+/* Popular artist section styling */
+
+.popular-artist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.artists-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.9em 0;
+}
+
+.artists {
+    text-align: center;
+}
+
+.artists img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.artist-name {
+    text-align: center;
 }
 
 .right-hero {
