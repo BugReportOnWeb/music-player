@@ -70,13 +70,13 @@ nav {
 }
 
 .profile-picture {
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
 }
 
 .profile-picture img {
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
 }
 
@@ -91,6 +91,66 @@ nav {
     margin-top: 0.5em;
     width: 55%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-image {
+    height: 288px;
+}
+
+.main-image img {
+    width: 744px;
+    height: 288px;
+}
+
+.latest-release {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.top-heading {
+    width: 100%;
+}
+
+.bottom-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.first, .second {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 0.7em;
+}
+
+.left, .right {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+}
+
+.bottom-elements img {
+    width: 89px;
+    height: 90px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .right-hero {
