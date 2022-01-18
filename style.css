@@ -108,6 +108,7 @@ nav {
 .main-image img {
     width: 744px;
     height: 288px;
+    cursor: pointer;
 }
 
 /* Latest release section styling */
@@ -156,8 +157,9 @@ nav {
 }
 
 .bottom-elements img {
-    width: 89px;
+    width: 90px;
     height: 90px;
+    cursor: pointer;
 }
 
 .content {
@@ -180,6 +182,7 @@ nav {
     justify-content: space-between;
     margin: 0.5em 0.9em 0 0;
     padding-left: 1.5em;
+    cursor: pointer;
 }
 
 .value {
@@ -220,16 +223,18 @@ nav {
 
 .artists {
     text-align: center;
+    cursor: pointer;
 }
 
 .artists img {
-    width: 110px;
-    height: 110px;
+    width: 105px;
+    height: 105px;
     border-radius: 50%;
 }
 
 .artist-name {
     text-align: center;
+    font-size: small;
 }
 
 /* Categories section styling */
@@ -252,6 +257,7 @@ nav {
 .top-cat img {
     height: 109px;
     width: 140px;
+    cursor: pointer;
 }
 
 .top-right-cat {
@@ -264,6 +270,7 @@ nav {
 .top-cat-img {
     display: inline-block;
     position: relative;
+    cursor: pointer;
 }
 
 .top-cat-img img {
@@ -294,8 +301,9 @@ nav {
 
 .bottom-cat-img img {
     opacity: 60%;
-    width: 240px;
-    height: 150px;
+    width: 220px;
+    height: 137px;
+    cursor: pointer;
 }
 
 .img-text {
@@ -310,7 +318,7 @@ nav {
 
 .latest-lang {
     width: 100%;
-    margin-bottom: 2em;
+    margin-bottom: 4.5em;
 }
 
 .english, .hindi {
@@ -333,10 +341,12 @@ nav {
 .let-lang-img img {
     height: 100px;
     width: 100px;
+    cursor: pointer;
 }
 
 .song-info {
     text-align: start;
+    cursor: pointer;
 }
 
 .song-info b {
@@ -386,6 +396,7 @@ nav {
 .icon-ele {
     color: lightseagreen;
     padding-bottom: 0.2em;
+    cursor: pointer;
 }
 
 .bottom-area {
@@ -416,6 +427,7 @@ nav {
     margin-left: 1em;
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 
 .song-image img {
@@ -426,6 +438,7 @@ nav {
 .song-details {
     text-align: start;
     margin-left: 1em;
+    cursor: pointer;
 }
 
 .song-details b {
@@ -436,4 +449,116 @@ nav {
     font-weight: lighter;
     font-size: x-small;
     color: rgb(216, 216, 216);
+}
+
+.end-icon {
+    cursor: pointer;;
+}
+
+/* Footer section styling */
+
+.footer {
+    background-color: #303030;
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.song {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 17%;
+}
+
+.song-selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    text-align: start;
+    margin-left: 1em;
+}
+
+.name b {
+    font-size: 0.88rem;
+}
+
+.name div {
+    font-size: 0.7rem;
+    font-weight: lighter;
+    color: rgb(191, 191, 191);
+}
+
+.song img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.like-icon {
+    cursor: pointer;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skip {
+    padding-top: 0.4em;
+}
+
+.top-player-cont {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding: 0.7em 0 0.3em 0;
+}
+
+.top-player-cont i {
+    cursor: pointer;
+}
+
+.bottom-player {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time-stamp {
+    font-size: smaller;
+    font-weight: lighter;
+    margin: 0 0.5em;
+    color: rgb(216, 216, 216);
+}
+
+.bottom-player img {
+    width: 400px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13%;
+}
+
+.controls i {
+    cursor: pointer;
+}
+
+.controls div {
+    margin-left: 0.6em;
 }
