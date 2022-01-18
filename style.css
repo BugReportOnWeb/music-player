@@ -352,11 +352,41 @@ nav {
 /* Right-hero styling */
 
 .right-hero {
-    background-color: grey;
+    /* background-color: grey; */
     margin: 1.5em;
     margin-top: 0.5em;
     width: 27%;
     height: 100vh;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.left-main-ele {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.right-sec-ele {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+
+.text-ele {
+    color: lightseagreen;
+    font-size: small;
+}
+
+.icon-ele {
+    color: lightseagreen;
+    padding-bottom: 0.2em;
 }
 
 
